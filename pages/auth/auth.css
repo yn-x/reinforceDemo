@@ -39,11 +39,21 @@
 }
 
 .title-highlight {
-  color: var(--app-color-deep-yellow);
+  color: #ffffff;
 }
 
 .title-light {
   font-weight: 400;
+  color: #ffffff;
+}
+
+/* Light mode styling for title highlight */
+html[data-theme='light'] .title-highlight {
+  color: #194C44;
+}
+
+html[data-theme='light'] .title-light {
+  color: var(--app-color-action-primary);
 }
 
 .auth-main-subtitle {
@@ -78,7 +88,7 @@
 
 .user-type-card:hover {
   background: var(--app-color-surface-container-high);
-  border-color: var(--app-color-deep-yellow);
+  border-color: var(--app-color-action-border);
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
@@ -105,7 +115,7 @@
 }
 
 .user-type-card:hover .user-type-icon {
-  background: rgba(167, 200, 252, 0.08);
+  background: rgba(165, 214, 167, 0.08);
   color: var(--app-color-on-surface-variant);
 }
 
@@ -135,7 +145,7 @@
 }
 
 .signin-link {
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-action-border);
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease-out;
@@ -143,7 +153,7 @@
 }
 
 .signin-link:hover {
-  color: var(--app-color-action-yellow-hover);
+  color: var(--app-color-action-hover);
   border-bottom-color: currentColor;
 }
 
@@ -391,8 +401,8 @@
 
 .auth-submit-btn {
   padding: 1rem;
-  background: var(--app-color-deep-yellow);
-  color: #0f1a2a;
+  background: var(--app-color-action-border);
+  color: #ffffff;
   border: none;
   border-radius: var(--app-radius-token);
   font-family: var(--app-font-headline);
@@ -404,7 +414,7 @@
 }
 
 .auth-submit-btn:hover {
-  background: var(--app-color-action-yellow-hover);
+  background: var(--app-color-action-hover);
   transform: translateY(-2px);
   box-shadow: 0 12px 24px rgba(243, 178, 0, 0.3);
 }
@@ -449,8 +459,8 @@
 .auth-link-btn {
   padding: 0.875rem;
   background: transparent;
-  color: var(--app-color-deep-yellow);
-  border: 2px solid var(--app-color-deep-yellow);
+  color: var(--app-color-action-border);
+  border: 2px solid var(--app-color-action-border);
   border-radius: var(--app-radius-token);
   font-family: var(--app-font-body);
   font-size: 0.95rem;
@@ -464,9 +474,9 @@
 }
 
 .auth-link-btn:hover {
-  background: var(--app-color-deep-yellow);
-  color: #0f1a2a;
-  border-color: var(--app-color-action-yellow-hover);
+  background: var(--app-color-action-border);
+  color: #ffffff;
+  border-color: var(--app-color-action-hover);
 }
 
 /* ==================== Sign In Specific Styles ==================== */

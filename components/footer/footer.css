@@ -1,5 +1,5 @@
 .site-footer {
-  background: var(--app-color-surface-container-low);
+  background: var(--app-section-bg-micro);
   padding: 4rem 0;
 }
 
@@ -66,6 +66,10 @@
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+
+html[data-theme='dark'] .footer-column-title {
+  color: #ffffff;
 }
 
 .footer-links-list {

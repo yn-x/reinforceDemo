@@ -12,7 +12,10 @@
 
 /* --- Hero Section --- */
 .course-hero {
-  background: radial-gradient(circle at top left, var(--app-color-primary-container) 0%, var(--app-color-bg) 70%);
+  background:
+    radial-gradient(64rem 30rem at -5% 0%, rgba(100, 100, 100, 0.1), transparent 56%),
+    radial-gradient(42rem 24rem at 110% 20%, rgba(120, 120, 120, 0.08), transparent 58%),
+    linear-gradient(180deg, #1a1a1a 0%, #2a2a2a 54%, #121212 100%);
   padding: 4rem 0;
   border-bottom: 1px solid var(--app-color-border);
 }
@@ -37,7 +40,7 @@
 }
 
 .course-hero-eyebrow {
-  color: var(--app-color-on-surface);
+  color: var(--app-color-secondary);
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -80,7 +83,7 @@
 }
 
 .course-meta-item svg {
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-action-primary);
 }
 
 .instructor-badge {
@@ -151,7 +154,10 @@
 /* --- Main Layout: Content + Sticky Sidebar --- */
 .course-main-section {
   padding: 4rem 0;
-  background: radial-gradient(circle at top left, var(--app-color-primary-container) 0%, var(--app-color-bg) 70%);
+  background:
+    radial-gradient(56rem 26rem at 12% -8%, rgba(100, 100, 100, 0.08), transparent 58%),
+    radial-gradient(40rem 24rem at 90% 26%, rgba(243, 178, 0, 0.08), transparent 62%),
+    linear-gradient(165deg, #1a1a1a 0%, #2a2a2a 55%, #121212 100%);
 }
 
 .course-layout {
@@ -276,7 +282,7 @@
 
 .accordion-icon {
   transition: transform 0.3s ease;
-  color: var(--app-color-primary);
+  color: var(--app-color-action-primary);
 }
 
 .accordion-item.is-active {
@@ -323,7 +329,7 @@
 }
 
 .lesson-title svg {
-  color: var(--app-color-outline);
+  color: var(--app-color-action-primary);
 }
 
 .lesson-duration {
@@ -425,7 +431,7 @@
 .review-rating {
   display: flex;
   gap: 0.25rem;
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-action-primary);
   margin-top: 0.25rem;
 }
 
@@ -479,8 +485,8 @@
   justify-content: center;
   width: 100%;
   padding: 0.875rem;
-  background: var(--app-color-deep-yellow);
-  color: var(--app-color-on-surface);
+  background: var(--app-color-action-primary);
+  color: #ffffff;
   font-family: var(--app-font-headline);
   font-weight: 700;
   font-size: 1.1rem;
@@ -492,7 +498,7 @@
 }
 
 .btn-primary:hover {
-  background: var(--app-color-deep-yellow);
+  background: var(--app-color-action-primary);
   transform: translateY(-2px);
   box-shadow: var(--app-shadow-soft);
 }
@@ -528,7 +534,7 @@
 }
 
 .course-includes li svg {
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-action-primary);
 }
 
 .course-includes-divider {
@@ -541,5 +547,27 @@
 .related-courses-section {
   padding: 4rem 0;
   border-top: 1px solid var(--app-color-border);
-  background: var(--app-color-bg);
+  background:
+    radial-gradient(58rem 30rem at -10% 0%, rgba(100, 100, 100, 0.1), transparent 58%),
+    radial-gradient(42rem 24rem at 100% 18%, rgba(243, 178, 0, 0.06), transparent 62%),
+    linear-gradient(165deg, #1a1a1a 0%, #2a2a2a 56%, #121212 100%);
+}
+
+/* --- Light Mode Theme Support --- */
+html[data-theme='light'] .course-hero {
+  background:
+    radial-gradient(circle at 120% 0%, rgba(46, 125, 50, 0.08), transparent 50%),
+    linear-gradient(135deg, #ffffff 0%, #f5f9f7 100%);
+}
+
+html[data-theme='light'] .course-main-section {
+  background:
+    radial-gradient(circle at -20% 10%, rgba(14, 106, 89, 0.06), transparent 45%),
+    linear-gradient(135deg, #ffffff 0%, #f7fbf9 100%);
+}
+
+html[data-theme='light'] .related-courses-section {
+  background:
+    radial-gradient(circle at 100% 20%, rgba(46, 125, 50, 0.07), transparent 48%),
+    linear-gradient(135deg, #ffffff 0%, #f5f9f7 100%);
 }

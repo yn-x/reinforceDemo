@@ -14,7 +14,7 @@
 
 .top-courses-week-eyebrow {
   margin: 0;
-  color: var(--app-color-on-surface);
+  color: var(--app-color-secondary);
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -132,7 +132,7 @@
   bottom: 1rem;
   border-radius: 0.25rem;
   background: var(--app-color-deep-yellow);
-  color: var(--app-color-on-surface);
+  color: #ffffff;
   padding: 0.25rem 0.5rem;
   font-size: 0.625rem;
   font-weight: 700;

@@ -92,7 +92,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--app-color-deep-yellow);
+  background:var(--app-color-action-primary);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
@@ -100,7 +100,7 @@
 
 .nav-link:hover,
 .nav-link:focus-visible {
-  color: var(--app-color-deep-yellow);
+  /* Text color unchanged on hover */
 }
 
 .nav-link:hover::after,
@@ -111,7 +111,7 @@
 }
 
 .nav-link-active {
-  color: var(--app-color-deep-yellow);
+  /* Text color unchanged when active */
 }
 
 .header-actions {
@@ -223,8 +223,8 @@
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  background: var(--app-color-deep-yellow);
-  color: var(--app-color-brand-contrast);
+  background: var(--app-color-action-primary);
+  color: #ffffff;
   border: 1px solid var(--app-color-border-regular);
   font-size: 0.875rem;
   font-weight: 700;
@@ -247,10 +247,10 @@
 
 .join-btn:hover,
 .join-btn:focus-visible {
-  background: var(--app-color-action-yellow-hover);
-  color: var(--app-color-brand-contrast);
+  background: var(--app-color-action-primary);
+  color: #ffffff;
   border-color: transparent;
-  box-shadow: 0 0 20px rgba(243, 178, 0, 0.35);
+  box-shadow: 0 0 20px;
   transform: translateY(-2px);
 }
 

@@ -19,7 +19,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: var(--app-color-on-surface);
+  color: var(--app-color-secondary);
 }
 
 .section-title {
@@ -41,7 +41,7 @@
   justify-content: center;
   width: 3rem;
   height: 3rem;
-  border: 1px solid var(--app-color-deep-yellow);  
+  border: 1px solid var(--app-color-action-border);  
   border-radius: 50%;
   background: transparent;
   color: var(--app-color-on-surface);
@@ -50,9 +50,9 @@
 }
 
 .nav-button:hover {
-  background: var(--app-color-deep-yellow);
+  background: var(--app-color-action-border);
   color: var(--app-color-brand-contrast);
-  border-color: var(--app-color-deep-yellow);
+  border-color: var(--app-color-action-border);
 }
 
 .featured-courses-grid {
@@ -151,8 +151,8 @@
   position: absolute;
   top: 1rem;
   left: 1rem;
-  background: var(--app-color-deep-yellow);
-  color: #000;
+  background: #A11A16;
+  color: #ffffff;
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
   font-family: var(--app-font-headline);
@@ -161,7 +161,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(243, 178, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(161, 26, 22, 0.3);
 }
 
 .course-content {
@@ -189,7 +189,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-action-primary);
   font-size: 0.875rem;
   white-space: nowrap;
   flex-shrink: 0;

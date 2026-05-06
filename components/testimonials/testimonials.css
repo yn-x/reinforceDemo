@@ -10,7 +10,7 @@
 
 .testimonials-eyebrow {
   margin: 0;
-  color: var(--app-color-on-surface);
+  color: var(--app-color-secondary);
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -41,7 +41,7 @@
 .testimonials-quote-icon {
   display: block;
   margin-bottom: 1rem;
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-action-primary);
 }
 
 .testimonials-quote {
