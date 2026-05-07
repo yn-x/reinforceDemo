@@ -88,7 +88,7 @@ html[data-theme='light'] .title-light {
 
 .user-type-card:hover {
   background: var(--app-color-surface-container-high);
-  border-color: var(--app-color-forest-green);
+  border-color: var(--app-color-rich-red);
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
