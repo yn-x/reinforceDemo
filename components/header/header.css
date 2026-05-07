@@ -1,9 +1,21 @@
 :root {
-  --header-overlay-height: 5.25rem;
+  --header-overlay-height: 4rem;
   --header-overlay-height-lg: 5.75rem;
 }
 
 @media (min-width: 640px) {
+  :root {
+    --header-overlay-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-overlay-height: 5.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
   :root {
     --header-overlay-height: 5.75rem;
   }
@@ -15,7 +27,8 @@
 }
 
 .site-header {
-  height: 5.25rem; 
+  height: auto;
+  min-height: 4rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -28,7 +41,25 @@
   background: var(--app-color-header-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  transition: background 0.4s ease, backdrop-filter 0.4s ease, padding 0.4s ease, border-bottom 0.4s ease;
+  transition: background 0.4s ease, backdrop-filter 0.4s ease, padding 0.4s ease, border-bottom 0.4s ease, min-height 0.3s ease;
+}
+
+@media (min-width: 640px) {
+  .site-header {
+    min-height: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-header {
+    min-height: 5.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-header {
+    min-height: 5.75rem;
+  }
 }
 
 .site-header.scrolled {
@@ -64,10 +95,29 @@
 }
 
 .brand-logo {
-  height: 4.5rem;
+  height: 2.5rem;
   width: auto;
   display: block;
   object-fit: contain;
+  transition: height 0.3s ease;
+}
+
+@media (min-width: 640px) {
+  .brand-logo {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .brand-logo {
+    height: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .brand-logo {
+    height: 4.5rem;
+  }
 }
 
 .site-nav {
