@@ -41,7 +41,7 @@
   justify-content: center;
   width: 3rem;
   height: 3rem;
-  border: 1px solid var(--app-color-action-border);  
+  border: 1px solid var(--app-color-forest-green);  
   border-radius: 50%;
   background: transparent;
   color: var(--app-color-on-surface);
@@ -50,9 +50,9 @@
 }
 
 .nav-button:hover {
-  background: var(--app-color-action-border);
+  background: var(--app-color-forest-green);
   color: var(--app-color-brand-contrast);
-  border-color: var(--app-color-action-border);
+  border-color: var(--app-color-forest-green);
 }
 
 .featured-courses-grid {
@@ -189,7 +189,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
   font-size: 0.875rem;
   white-space: nowrap;
   flex-shrink: 0;

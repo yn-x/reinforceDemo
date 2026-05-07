@@ -92,7 +92,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background:var(--app-color-action-primary);
+  background:var(--app-color-rich-red);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
@@ -223,7 +223,7 @@
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: #ffffff;
   border: 1px solid var(--app-color-border-regular);
   font-size: 0.875rem;
@@ -247,7 +247,7 @@
 
 .join-btn:hover,
 .join-btn:focus-visible {
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: #ffffff;
   border-color: transparent;
   box-shadow: 0 0 20px;

@@ -112,7 +112,7 @@
   align-items: center;
   justify-content: center;
   border-radius: var(--app-radius-token);
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: #ffffff;
   font-size: 0.875rem;
   font-weight: 500;

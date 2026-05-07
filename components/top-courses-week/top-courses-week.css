@@ -49,8 +49,8 @@
 }
 
 .top-courses-week-nav-button:hover {
-  border-color: var(--app-color-deep-yellow);
-  background: var(--app-color-deep-yellow);
+  border-color: var(--app-color-forest-green);
+  background: var(--app-color-forest-green);
   color: var(--app-color-brand-contrast);
 }
 
@@ -131,7 +131,7 @@
   left: 1rem;
   bottom: 1rem;
   border-radius: 0.25rem;
-  background: var(--app-color-deep-yellow);
+  background: var(--app-color-forest-green);
   color: #ffffff;
   padding: 0.25rem 0.5rem;
   font-size: 0.625rem;

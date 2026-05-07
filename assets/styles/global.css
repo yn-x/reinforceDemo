@@ -6,7 +6,7 @@
   --app-color-fg: #e4e2db;
   --app-color-muted: #c3c6d023;
   --app-color-border: #43474f;
-  --app-color-brand: #2E7D32;
+  --app-color-brand: #194C44;
   --app-color-brand-soft: #1c4f47;
   --app-color-brand-contrast: #ffffff;
   --app-color-primary: #81C784;
@@ -31,10 +31,10 @@
   --app-color-surface-container: #1f201c;
   --app-color-surface-container-high: #2a2a26;
   --app-color-surface-container-highest: #353530;
-  --app-color-action-border: #194C44;
+  --app-color-forest-green: #194C44;
   --app-color-action-hover: #5ab876;
-  --app-color-action-primary: #a11a16;
-  --app-color-action-primary-hover: #ffb4aa;
+ --app-color-rich-red: #a11a16;
+ --app-color-rich-red-hover: #ffb4aa;
 
   --app-bg-gradient: radial-gradient(circle at top right, rgba(100, 100, 100, 0.05) 0%, var(--app-color-bg) 48%);
   --app-color-border-soft: rgba(255, 255, 255, 0.08);
@@ -138,10 +138,10 @@ html[data-theme='light'] {
   --app-color-surface-container: #f8fbf9;
   --app-color-surface-container-high: #f2f7f5;
   --app-color-surface-container-highest: #ecf3f0;
-  --app-color-action-border: #2E6F40;
+  --app-color-forest-green: #2E6F40;
   --app-color-action-hover: #1a3a1f;
-  --app-color-action-primary: #8d1410;
-  --app-color-action-primary-hover: #e58f85;
+ --app-color-rich-red: #8d1410;
+ --app-color-rich-red-hover: #e58f85;
 
   --app-bg-gradient: linear-gradient(135deg, #ffffff 0%, #f5f9f7 100%);
   --app-color-border-soft: rgba(30, 30, 30, 0.08);

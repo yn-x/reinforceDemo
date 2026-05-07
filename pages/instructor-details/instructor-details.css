@@ -405,7 +405,7 @@ html[data-theme='light'] .expertise-section {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: #ffffff;
   padding: 0.4rem 0.7rem;
   font-size: 0.72rem;
@@ -415,7 +415,7 @@ html[data-theme='light'] .expertise-section {
 }
 
 .course-badge-secondary {
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: #ffffff;
 }
 
@@ -449,7 +449,7 @@ html[data-theme='light'] .expertise-section {
   border-radius: 999px;
   padding: 0.4rem 0.65rem;
   background: var(--app-color-panel-mid);
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-forest-green);
   font-size: 0.9rem;
   font-weight: 800;
 }
@@ -530,7 +530,7 @@ html[data-theme='light'] .expertise-section {
 }
 
 .timeline-year {
-  color: var(--app-color-deep-yellow);
+  color: var(--app-color-forest-green);
   font-weight: 800;
   letter-spacing: 0.08em;
 }

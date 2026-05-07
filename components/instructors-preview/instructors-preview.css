@@ -39,7 +39,7 @@
   justify-content: center;
   width: 3rem;
   height: 3rem;
-  border: 1px solid var(--app-color-action-primary);
+  border: 1px solid var(--app-color-rich-red);
   border-radius: 999px;
   background: transparent;
   color: var(--app-color-on-surface);
@@ -48,9 +48,9 @@
 }
 
 .instructors-preview-nav-button:hover {
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: var(--app-color-brand-contrast);
-  border-color: var(--app-color-action-primary);
+  border-color: var(--app-color-rich-red);
 }
 
 .instructors-preview-grid {
@@ -79,7 +79,7 @@
 }
 
 .instructors-preview-card:hover .instructors-preview-avatar-frame {
-  border-color: var(--app-color-action-primary);
+  border-color: var(--app-color-rich-red);
 }
 
 .instructors-preview-avatar-frame img {
@@ -116,7 +116,7 @@
 }
 
 .instructors-preview-view-all-link:hover {
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
   text-decoration: underline;
 }
 

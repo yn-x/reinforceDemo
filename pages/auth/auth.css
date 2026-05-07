@@ -53,7 +53,7 @@ html[data-theme='light'] .title-highlight {
 }
 
 html[data-theme='light'] .title-light {
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
 }
 
 .auth-main-subtitle {
@@ -88,7 +88,7 @@ html[data-theme='light'] .title-light {
 
 .user-type-card:hover {
   background: var(--app-color-surface-container-high);
-  border-color: var(--app-color-action-border);
+  border-color: var(--app-color-forest-green);
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
@@ -145,7 +145,7 @@ html[data-theme='light'] .title-light {
 }
 
 .signin-link {
-  color: var(--app-color-action-border);
+  color: var(--app-color-forest-green);
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease-out;
@@ -401,7 +401,7 @@ html[data-theme='light'] .title-light {
 
 .auth-submit-btn {
   padding: 1rem;
-  background: var(--app-color-action-border);
+  background: var(--app-color-forest-green);
   color: #ffffff;
   border: none;
   border-radius: var(--app-radius-token);
@@ -459,8 +459,8 @@ html[data-theme='light'] .title-light {
 .auth-link-btn {
   padding: 0.875rem;
   background: transparent;
-  color: var(--app-color-action-border);
-  border: 2px solid var(--app-color-action-border);
+  color: var(--app-color-forest-green);
+  border: 2px solid var(--app-color-forest-green);
   border-radius: var(--app-radius-token);
   font-family: var(--app-font-body);
   font-size: 0.95rem;
@@ -474,7 +474,7 @@ html[data-theme='light'] .title-light {
 }
 
 .auth-link-btn:hover {
-  background: var(--app-color-action-border);
+  background: var(--app-color-forest-green);
   color: #ffffff;
   border-color: var(--app-color-action-hover);
 }

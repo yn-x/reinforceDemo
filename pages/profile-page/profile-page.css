@@ -145,7 +145,7 @@ html[data-theme='light'] .profile-page {
 
 .profile-nav-icon {
   display: inline-flex;
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
 }
 
 .profile-content {
@@ -203,7 +203,7 @@ html[data-theme='light'] .profile-page {
 }
 
 .progress-ring-bar {
-  stroke: var(--app-color-action-border);
+  stroke: var(--app-color-forest-green);
   stroke-linecap: round;
   stroke-dasharray: 289;
   stroke-dashoffset: 289;
@@ -295,7 +295,7 @@ html[data-theme='light'] .profile-page {
 }
 
 .primary-cta {
-  background: var(--app-color-action-border);
+  background: var(--app-color-forest-green);
   color: #ffffff;
 }
 
@@ -423,7 +423,7 @@ html[data-theme='light'] .profile-page {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--app-color-action-border), var(--app-color-secondary-fixed));
+  background: linear-gradient(90deg, var(--app-color-forest-green), var(--app-color-secondary-fixed));
 }
 
 .continue-card-time {
@@ -533,7 +533,7 @@ html[data-theme='light'] .profile-page {
   height: 0.8rem;
   margin-top: 0.4rem;
   border-radius: 999px;
-  background: var(--app-color-action-border);
+  background: var(--app-color-forest-green);
   box-shadow: 0 0 0 6px var(--profile-card-bg-muted);
 }
 

@@ -83,7 +83,7 @@
 }
 
 .course-meta-item svg {
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
 }
 
 .instructor-badge {
@@ -282,7 +282,7 @@
 
 .accordion-icon {
   transition: transform 0.3s ease;
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
 }
 
 .accordion-item.is-active {
@@ -329,7 +329,7 @@
 }
 
 .lesson-title svg {
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
 }
 
 .lesson-duration {
@@ -431,7 +431,7 @@
 .review-rating {
   display: flex;
   gap: 0.25rem;
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
   margin-top: 0.25rem;
 }
 
@@ -485,7 +485,7 @@
   justify-content: center;
   width: 100%;
   padding: 0.875rem;
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   color: #ffffff;
   font-family: var(--app-font-headline);
   font-weight: 700;
@@ -498,7 +498,7 @@
 }
 
 .btn-primary:hover {
-  background: var(--app-color-action-primary);
+  background: var(--app-color-rich-red);
   transform: translateY(-2px);
   box-shadow: var(--app-shadow-soft);
 }
@@ -534,7 +534,7 @@
 }
 
 .course-includes li svg {
-  color: var(--app-color-action-primary);
+  color: var(--app-color-rich-red);
 }
 
 .course-includes-divider {
